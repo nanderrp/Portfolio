@@ -1,0 +1,17 @@
+.BignNames {
+    float: left;
+}
+
+.BigNames a {
+    color: #0072ff;
+    padding-top: 10px;
+}
+
+.BigNames span{
+    text-decoration: underline #101010;
+    
+}
+
+.BigNames .Text {
+    color: #101010;
+}

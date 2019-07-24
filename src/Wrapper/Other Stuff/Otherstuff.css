@@ -1,0 +1,89 @@
+.Item {
+  display: grid;
+  position: relative;
+  width: 257px;
+  height: 190px;
+  background-color: #0072ff;
+  margin: 3px;
+}
+
+@media screen and (min-width:1001px) {
+.Item {
+  display: grid;
+  position: relative;
+  width: 23vw;
+  height: 18vw;
+  background-color: #0072ff;
+  margin: 3px;
+  padding-right: 20px;
+}
+}
+
+.logos:hover {
+  background-image: url('./Images/logos.png');
+  background-size: 100% auto;
+}
+
+.disney:hover {
+  background-image: url('./Images/ausad-r-2-2-e.png');
+  background-size: 100% auto;
+}
+.illustrations:hover {
+  background-image: url('./Images/arthur.png');
+  background-size: 100% auto;
+}
+.ocean:hover {
+  background-image: url('./Images/cover-oe.png');
+  background-size: 100% auto;
+}
+.album:hover {
+  background-image: url('./Images/cd.png');
+  background-size: 100% auto;
+}
+.stationary:hover {
+  background-image: url('./Images/kelseyinvite.png');
+  background-size: 100% auto;
+}
+.handlettering:hover {
+  background-image: url('./Images/i-3.png');
+  background-size: 100% auto;
+}
+.alpenrose:hover {
+  background-image: url('./Images/final-pierpoint.png');
+  background-size: 100% auto;
+}
+.friends:hover {
+  background-image: url('./Images/gorge.png');
+  background-size: 2100% auto;
+}
+.kids:hover {
+  background-image: url('./Images/4Kids.png');
+  background-size: 100% auto;
+}
+.college:hover {
+  background-image: url('./Images/college.png');
+  background-size: 100% auto;
+}
+
+.Item h2 {
+ 
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Item:hover h2 {
+  opacity: 0;
+}
+
+.Item img {
+  width: 257px;
+  max-width: 451px;
+  height: 190px;
+  max-height: 333px;
+  }
