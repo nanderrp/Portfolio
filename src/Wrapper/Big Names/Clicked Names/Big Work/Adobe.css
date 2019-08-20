@@ -1,0 +1,62 @@
+.Adobe {
+    position: fixed;
+    width: 100%;  
+    height: auto;
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;
+    border: 8px #f7f7f7 solid;
+    margin: auto;  
+    background-color: #191919;
+    z-index: 99; 
+    float: right;
+}
+
+.Adobe button {
+    border: none;
+    color: #f7f7f7;
+    background-color: transparent;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .Adobe-title {
+    width: 954px;
+    height: 77px;
+    font-family: aktiv-grotesk;
+    font-size: 38px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.63;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .Adobe-desc {
+    width: 765px;
+    height: 77px;
+    font-family: aktiv-grotesk;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .Adobe .Images {
+      display: inline-block;
+    
+  }
+
+  .Adobe img {
+    width: 70%;
+    height: auto;
+    
+  }

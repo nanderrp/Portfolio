@@ -2,9 +2,20 @@
     float: left;
 }
 
-.BigNames a {
+.BigNames button {
     color: #0072ff;
     padding-top: 10px;
+    border: none;
+    text-align: left;
+    background-color: #f6f6f6;
+}
+
+.button {
+    color: #0072ff;
+    padding-top: 10px;
+    border: none;
+    text-align: left;
+    background-color: #f6f6f6;
 }
 
 .BigNames span{

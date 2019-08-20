@@ -5,6 +5,7 @@ import BigNames from './Big Names/BigNames';
 import Otherstuff from './Other Stuff/Otherstuff.js';
 import './Wrapper.css';
 
+
 export default class Wrapper extends Component {
     render() {
         return (
@@ -14,13 +15,13 @@ export default class Wrapper extends Component {
                     
                 
                     <div className="Nested">
-                                                
+                                 
                                 <About />
-                            
-                                
+                    
+                    
                                 <BigNames />
                                 
-                            
+                    
                                 <Otherstuff />
                             
                         </div>

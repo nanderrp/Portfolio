@@ -1,0 +1,226 @@
+.Circle {
+    text-align: left;
+    align-content: center;
+    background-color: #191919;
+    border: 5px solid #f7f7f7;
+}
+
+.Circle-exit {
+    display: inline-block;
+    float: right;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.Circle-title { 
+  padding: 20px;
+  font-family: aktiv-grotesk;
+  font-size: 5.5vh;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Circle-blurb {
+  padding: 20px;
+  margin-bottom: 40px;
+  font-family: aktiv-grotesk;
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Circle-imgOne {
+    padding: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.Circle-imgTwo {
+    padding: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+ .Circle-imgSixteen {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.Circle-imgEight {
+    padding: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.Circle-imgFive{
+    display: block;
+    margin: auto;
+    margin-left: 250px;
+    width: 20%;
+    float: left;
+}
+
+.Circle-imgSix {
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+    margin-right: 250px;
+    width: 30%;
+    float: right;
+}
+
+.Circle-imgFour {
+    display: block;
+    margin: auto;
+    margin-top: 125px;
+    margin-left: 150px;
+    width: 28%;
+    float: left;
+}
+
+.Circle-imgThree {
+    display: block;
+    margin: auto;
+    margin-top: 90px;
+    margin-right: 420px;
+    margin-bottom: 50px;
+    width: 18%;
+    float: right;
+}
+
+
+
+.Circle-imgSeven {
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 50%;
+    height: auto;
+}
+
+.Circle-imgNine {
+    float: right;
+    padding: 20px;
+    margin-bottom: 30px;
+    width: 70%;
+    height: auto;
+}
+
+.Circle-imgTen {
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+    height: auto;
+}
+
+.Circle-imgEleven {
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+    height: auto
+}
+
+.Circle-imgThirteen {
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    float: left;
+    width: 32%;
+}
+
+.Circle-imgFifteen {
+    padding: 20px;
+    width: 32%;
+    margin-top: 250px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.Circle-imgTwelve {
+   padding: 20px;
+   float: right;
+   width: 32%;
+   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1120px){
+    .Circle-imgFive {
+        float: none;
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .Circle-imgSix {
+        float: none;
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .Circle-imgFour {
+        float: none;
+        display: block;
+        margin-top:20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .Circle-imgThree {
+        float: none;
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .Circle-imgSeven {
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    .Circle-imgNine {
+        float: none;
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}

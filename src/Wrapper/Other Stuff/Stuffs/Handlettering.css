@@ -1,0 +1,176 @@
+.Handlettering {
+    text-align: left;
+    align-content: center;
+    background-color: #191919;
+    border: 5px solid #f7f7f7;
+}
+
+.Handlettering-exit {
+    display: inline-block;
+    float: right;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.Handlettering-title { 
+  padding: 20px;
+  font-family: aktiv-grotesk;
+  font-size: 5.5vh;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Handlettering-blurb {
+    padding: 20px;
+    margin-bottom: 40px;
+    font-family: aktiv-grotesk;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+.Handlettering-imgOne {
+    padding: 10px;
+    width: 50%;
+}
+
+.Handlettering-imgTwo {
+    padding: 10px;
+    width: 50%;
+}
+
+.Handlettering-imgThree {
+    padding: 10px;
+    width: 50%;
+        
+}
+
+.Handlettering-imgFour {
+  padding: 10px;
+  width: 50%;
+}
+
+.Handlettering-imgFive {
+  padding: 10px;
+  width: 50%;
+}
+
+.Handlettering-imgSix {
+  padding: 10px;
+  width: 50%;
+}
+
+.Handlettering-imgSeven {
+  padding: 10px;
+  width: 50%;
+}
+
+.Handlettering-imgEight {
+  padding: 10px;
+  width: 50%; 
+   
+}
+
+@media screen and (max-width: 1010px)
+{
+.Handlettering-imgOne {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 5px;
+        
+}
+
+.Handlettering-imgTwo {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 5px;
+      
+}
+
+.Handlettering-imgThree {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 5px;
+      
+}
+
+.Handlettering-imgFour {
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 5px;
+      
+}
+
+.Handlettering-imgFive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 30px;
+      
+}
+
+.Handlettering-imgSix {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.Handlettering-imgSeven {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.Handlettering-imgEight {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.Handlettering-imgNine {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.Handlettering-imgTen {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+}
