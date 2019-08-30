@@ -1,11 +1,12 @@
-.Adobe {
+.UnderArmour {
+    height: 100%;
     text-align: left;
     align-content: center;
     background-color: #191919;
     border: 5px solid #f7f7f7;
 }
 
-.Adobe-exit {
+.Under-exit {
   display: inline-block;
   float: right;
   color: #ffffff;
@@ -15,7 +16,7 @@
   padding: 20px;
   }
 
-  .Adobe-title {
+  .Under-title {
   padding: 20px;
   font-family: aktiv-grotesk;
   font-size: 5.5vh;
@@ -27,29 +28,30 @@
   color: #ffffff;
   }
 
-  .Adobe-blurb {
-  padding: 20px;
-  margin-bottom: 40px;
-  font-family: aktiv-grotesk;
-  font-size: 22px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.21;
-  letter-spacing: normal;
-  color: #ffffff;
+  .Carrousel {
+      margin-left: 11%;
+      margin-right: 10%;
+      width: 80%;
+      justify-content: center;
+      align-content: center;
+  }
+ 
+
+  .UnderArmour-img {
+    display: block;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
   }
 
-  .Adobe-img1 {
-    padding: 20px;
-    display: inline-block;
-    width: 100%;
-    height: auto;
+  .prev {
+    position: absolute;
+    margin-left: -10vw;
   }
 
-  .Adobe-img2 {
-    padding: 20px;
-    display: inline-block;
-    width: 100%;
-    height: auto;
+  .next {
+    position: absolute;
+    margin-right: -10vw;
   }

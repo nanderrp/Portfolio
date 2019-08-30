@@ -1,8 +1,9 @@
 .BignNames {
     float: left;
+
 }
 
-.BigNames button {
+.BigNames-link {
     color: #0072ff;
     padding-top: 10px;
     border: none;

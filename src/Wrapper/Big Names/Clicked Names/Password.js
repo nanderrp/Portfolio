@@ -1,62 +1,55 @@
 import React, { Component } from 'react';
 import './Password.css';
+import {Link} from 'react-router-dom';
 
 
+class Password extends Component {
+  static defaultProps = {
+    password: 'pierpoint'
+  }
 
-export default class Password extends Component {
-
-    static defaultProps = {
-      password: 'pierpoint'
+  constructor(props) {
+      super(props)
+  
+      this.state = {
+        visible: true,
+        value: ''
+      }
+        
+      
+      
+      
+      this.handleChange = this.handleChange.bind(this)
+      this.handleSubmit = this.handleSubmit.bind(this)
+      
     }
 
-    constructor(props) {
-        super(props)
-    
-        this.state = {
-          visible: true,
-          value: ''
+      handleChange(e) {    
+        e.preventDefault();      
+        this.setState({value: e.target.value});
+    }
+
+      handleSubmit(e) {
+        e.preventDefault();
+        if(this.state.value === this.props.password) {
+          this.setState({visible: false});
+        } else {
+          alert('Incorrect Password!'); 
         }
-          
-        
-
-        this.handleClick = this.handleClick.bind(this)
-        this.handleChange = this.handleChange.bind(this)
-        this.handleSubmit = this.handleSubmit.bind(this)
-      }
-        
-
-        handleChange(e) {    
-          e.preventDefault();      
-          this.setState({value: e.target.value});
       }
 
-
-        handleSubmit(e) {
-          e.preventDefault();
-          if(this.state.value === this.props.password) {
-            alert('Password Correct ' + this.state.value);
-            this.setState({visible: false});
-          } else (alert('Incorrect Password!'))
-      }
     
-      handleClick(event) {
-        event.preventDefault()
-        this.setState(prevState => ({
-          visible: !prevState.visible,
-        }))
-      }
-    
-
     render() {
         if (!this.state.visible) {
-        return null
-    }
-
+        return null; 
+      };
+          
         return (
+
             <div className="pwd">
 
                 <div className="enter-pwd">
-                <button className='exit' onClick={this.handleClick}> &#10005; </button>
+                <Link className='exit' to='/'> &#10005; </Link>
                     <form onSubmit={this.handleSubmit}>
                     
                     <input 
@@ -79,4 +72,6 @@ export default class Password extends Component {
             </div>
         )
     }
-}
+  }
+
+export default Password

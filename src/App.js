@@ -21,7 +21,7 @@ import FriendsoftheGorge from './Wrapper/Other Stuff/Stuffs/FriendsoftheGorge';
 import Kids from './Wrapper/Other Stuff/Stuffs/Kids';
 import OCSP from './Wrapper/Other Stuff/Stuffs/OCSP';
 import Password from './Wrapper/Big Names/Clicked Names/Password';
-import { Redirect } from 'react-router';
+
 
 
 function App() {

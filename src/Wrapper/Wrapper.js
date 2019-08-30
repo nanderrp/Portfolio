@@ -7,7 +7,10 @@ import './Wrapper.css';
 
 
 export default class Wrapper extends Component {
+
+
     render() {
+
         return (
             <div className='Wrapped'>
                
@@ -26,7 +29,7 @@ export default class Wrapper extends Component {
                             
                         </div>
                             
-                        
+        
                          
                            
                       
