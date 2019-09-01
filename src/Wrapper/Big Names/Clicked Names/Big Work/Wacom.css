@@ -1,4 +1,4 @@
-.UnderArmour {
+.Wacom {
     min-height: 810px;
     text-align: left;
     align-content: center;
@@ -6,7 +6,7 @@
     border: 5px solid #f7f7f7;
 }
 
-.Under-exit {
+.Wacom-exit {
   display: inline-block;
   float: right;
   color: #ffffff;
@@ -16,7 +16,7 @@
   padding: 20px;
   }
 
-  .Under-title {
+  .Wacom-title {
   padding: 20px;
   font-family: aktiv-grotesk;
   font-size: 5.5vh;
@@ -26,6 +26,7 @@
   line-height: 1;
   letter-spacing: normal;
   color: #ffffff;
+  margin-bottom: 100px
   }
 
   .Carrousel {
@@ -38,7 +39,7 @@
   }
  
 
-  .UnderArmour-img {
+  .Wacom-img {
     display: block;
     height: inherit;
     margin-bottom: 30px;

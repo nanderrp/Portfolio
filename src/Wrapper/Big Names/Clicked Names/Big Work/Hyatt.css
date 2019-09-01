@@ -1,4 +1,4 @@
-.UnderArmour {
+.Hyatt {
     min-height: 810px;
     text-align: left;
     align-content: center;
@@ -6,7 +6,7 @@
     border: 5px solid #f7f7f7;
 }
 
-.Under-exit {
+.Hyatt-exit {
   display: inline-block;
   float: right;
   color: #ffffff;
@@ -16,7 +16,7 @@
   padding: 20px;
   }
 
-  .Under-title {
+  .Hyatt-title {
   padding: 20px;
   font-family: aktiv-grotesk;
   font-size: 5.5vh;
@@ -26,19 +26,20 @@
   line-height: 1;
   letter-spacing: normal;
   color: #ffffff;
+  margin-bottom: 100px
   }
 
   .Carrousel {
-      margin-left: 11%;
+      margin-left: 19%;
       margin-right: 10%;
-      width: 80%;
+      width: 60%;
       height: 100%;
       justify-content: center;
       align-content: center;
   }
  
 
-  .UnderArmour-img {
+  .Hyatt-img {
     display: block;
     height: inherit;
     margin-bottom: 30px;
