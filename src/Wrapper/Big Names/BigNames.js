@@ -31,17 +31,17 @@ export default class BigNames extends Component {
                     <span className='Name'>Hyatt</span>
                     <span className='Text'>: Mobile Check-in</span>  <i className="fas fa-lock"></i>
                 </Link>
-                <Link className="BigNames-link"  to='/CapitolGroup'>
-                    <span className='Name'>Capitol Group</span>
+                <Link className="BigNames-link"  to='/CapitalGroup'>
+                    <span className='Name'>Capital Group</span>
                     <span className='Text'>: Email Newsletters</span>  <i className="fas fa-lock"></i>
                 </Link>
                 <Link className="BigNames-link" to='/AARP'>
                     <span className='Name'>AARP</span>
                     <span className='Text'>: Girlfriend Illustration</span>  <i className="fas fa-lock"></i>
                 </Link>
-                <Link className="BigNames-link"  to='/Boyscouts'>
-                    <span className='Name'>Boy Scouts of America</span>
-                    <span className='Text'>: Email Newsletter</span>  <i className="fas fa-lock"></i>
+                <Link className="BigNames-link"  to='/Thesis'>
+                    <span className='Name'>Thesis</span>
+                    <span className='Text'>: Branding and Web Design</span>  <i className="fas fa-lock"></i>
                 </Link>
             </div>
         )

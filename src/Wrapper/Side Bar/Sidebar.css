@@ -10,10 +10,10 @@
     color: #101010;
     writing-mode: vertical-lr;
     width: 35px;
-    height: 550px;
+    height: 450px;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-  
+    
 }
 
 .Sidebar .A {

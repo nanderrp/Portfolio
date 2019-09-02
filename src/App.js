@@ -3,12 +3,13 @@ import './App.css';
 import Wrapper from './Wrapper/Wrapper';
 import { Switch, Route } from 'react-router-dom';
 import Adobe from './Wrapper/Big Names/Clicked Names/Big Work/Adobe';
+import AARP from './Wrapper/Big Names/Clicked Names/Big Work/AARP';
 import UnderArmour from './Wrapper/Big Names/Clicked Names/Big Work/UnderArmour';
 import Wacom from './Wrapper/Big Names/Clicked Names/Big Work/Wacom';
 import Hyatt from './Wrapper/Big Names/Clicked Names/Big Work/Hyatt';
-import Boyscouts from './Wrapper/Big Names/Clicked Names/Big Work/Boyscouts';
+import Thesis from './Wrapper/Big Names/Clicked Names/Big Work/Thesis';
 import Linkdin from  './Wrapper/Big Names/Clicked Names/Big Work/Linkdin';
-import CapitolGroup from './Wrapper/Big Names/Clicked Names/Big Work/CapitolGroup';
+import CapitalGroup from './Wrapper/Big Names/Clicked Names/Big Work/CapitalGroup';
 import Logos from './Wrapper/Other Stuff/Stuffs/Logos';
 import Circle from './Wrapper/Other Stuff/Stuffs/Circle';
 import Illustrations from './Wrapper/Other Stuff/Stuffs/Illustrations';
@@ -33,10 +34,11 @@ function App() {
         <Route exact path="/Adobe" component={ Adobe }/>
         <Route exact path="/UnderArmour" component={ UnderArmour }/>
         <Route exact path="/Wacom" component={ Wacom }/>
+        <Route exact path="/AARP" component={ AARP }/>
         <Route exact path="/Hyatt" component={ Hyatt }/>
-        <Route exact path="/Boyscouts" component={ Boyscouts }/>
+        <Route exact path="/Thesis" component={ Thesis }/>
         <Route exact path="/Linkdin" component={ Linkdin }/>
-        <Route exact path="/CapitolGroup" component={ CapitolGroup }/>
+        <Route exact path="/CapitalGroup" component={ CapitalGroup }/>
         <Route exact path="/Logos" component={ Logos }/>
         <Route exact path="/Circle" component={ Circle }/>
         <Route exact path="/Illustrations" component={ Illustrations }/>

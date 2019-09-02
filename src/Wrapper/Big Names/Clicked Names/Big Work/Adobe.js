@@ -6,15 +6,7 @@ import Adobe1 from './Big Images/mockup-1.png';
 import Adobe2 from './Big Images/mockup-2.png';
 
 export default class Adobe extends Component {
-
-
-    constructor(props) {
-        super(props);
-        this.state = {
-            visible: false
-        }
-    }
-
+    
     render() {
 
     
