@@ -1,11 +1,16 @@
 .Wrapper {
     background-color: #f6f6f6;
-    height: 100%;
+    height: auto;
     width: 100%;
-    margin: 0;
+    margin:0;
+    margin-bottom: auto;
+    margin-right: 100%;
 }
 
 .Wrapped {
+    margin: 0;
+    margin-right: 100px;
+    width: 100%;
     display: grid;
     grid-template-columns: 3% 100% ;
     background-color: #f6f6f6;
@@ -25,14 +30,14 @@
 .Wrapped .Nested .BigNames{
     display: grid;
     grid-column-gap: .5em;
-    margin-right: 150px;
+    margin-right: 10vw;
     grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
     
 }
 
 .Wrapped .Nested .About {
     float: left;
-    padding-right: 150px;
+    padding-right: 20vw;
     font-size: 18px;
     line-height: 1.2;
 }
@@ -40,7 +45,7 @@
 @media screen and (min-width: 701px) {
     .Wrapped .Nested .About {
         font-size: 40px;
-        padding-right: 300px;
+        padding-right: 20vw;
     }
     }
 
