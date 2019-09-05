@@ -1,0 +1,118 @@
+.Item {
+  display: grid;
+  position: relative;
+  width: 257px;
+  height: 190px;
+  background-color: #0072ff;
+  margin: 3px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width:550px) {
+.Item {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  position: relative;
+  width: 143px;
+  height: 98px;
+  margin: 3px;
+  padding-right: 15px;
+  margin-left: 20px
+}
+}
+
+.Otherstuff {
+  display: grid;
+  grid-template-columns: 3% 97%;
+}
+
+.Otherstuff p {
+  transform: rotate(180deg);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal; 
+    letter-spacing: .8px;
+    color: #101010;
+    writing-mode: vertical-lr;
+    width: 8px;
+    margin-top: 20px;
+    margin-left: 0;
+    float: left;
+}
+
+
+.Item:hover {
+  background-image: none;
+  background-color: #0072ff;
+  cursor: pointer;
+}
+
+.logos {
+  background-image: url('./Images/logos.png');
+  background-size: 100% auto;
+}
+
+.disney {
+  background-image: url('./Images/ausad-r-2-2-e.png');
+  background-size: 100% auto;
+}
+.illustrations {
+  background-image: url('./Images/arthur.png');
+  background-size: 100% auto;
+}
+.ocean {
+  background-image: url('./Images/cover-oe.png');
+  background-size: 100% auto;
+}
+.album {
+  background-image: url('./Images/cd.png');
+  background-size: 100% auto;
+}
+.stationary {
+  background-image: url('./Images/kelseyinvite.png');
+  background-size: 100% auto;
+}
+.handlettering {
+  background-image: url('./Images/i-3.png');
+  background-size: 100% auto;
+}
+.alpenrose {
+  background-image: url('./Images/final-pierpoint.png');
+  background-size: 100% auto;
+}
+.friends {
+  background-image: url('./Images/gorge.png');
+  background-size: 100% auto;
+}
+.kids {
+  background-image: url('./Images/4Kids.png');
+  background-size: 100% auto;
+}
+.college {
+  background-image: url('./Images/college.png');
+  background-size: 100% auto;
+}
+
+.Item h2 {
+  opacity: 0;
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Item:hover h2 {
+  opacity: 1;
+}
+
+.Otherstuff Link {
+  text-decoration: none;
+}
+

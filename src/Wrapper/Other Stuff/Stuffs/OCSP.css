@@ -1,0 +1,185 @@
+.OCSP {
+    text-align: left;
+    align-content: center;
+    background-color: #191919;
+    border: 5px solid #f7f7f7;
+}
+
+.OCSP-exit {
+    display: inline-block;
+    float: right;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.OCSP-title { 
+  padding: 20px;
+  font-family: aktiv-grotesk;
+  font-size: 5vw;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.OCSP-blurb {
+    padding: 20px;
+    margin-bottom: 40px;
+    font-family: aktiv-grotesk;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .OCSP-link {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-family: aktiv-grotesk;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-align: center;
+  }
+
+.OCSP-imgOne {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.OCSP-imgTwo {
+    width: 44vw;
+    padding-left: 50px;
+    margin-top: 140px;
+    float: left;
+}
+
+.OCSP-imgThree {
+   padding-left: 50px;
+   margin-top: 100px;
+   margin-bottom: 30px;
+   width: 44vw;
+
+}
+
+.OCSP-imgFour {
+    display: block;
+    height: auto;
+    width: 70%;
+    margin: auto;
+}
+
+.OCSP-imgFive {
+   padding-top: 30px;
+   padding-left: 50px;
+   
+}
+
+.OCSP-imgSix {
+    padding-top: 140px;
+    padding-right: 50px;
+    float: right;
+    width: 50%;
+}
+
+.OCSP-imgSeven {
+  padding-left: 50px;
+  padding-top: 50px;
+  float: left;
+  
+}
+
+.OCSP-imgEight {
+ width: 30%;
+ float: right;
+   
+}
+
+@media screen and (max-width: 1010px)
+{
+.OCSP-imgOne {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 5px;
+        
+}
+
+.OCSP-imgFour {
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 5px;
+      
+}
+
+.OCSP-imgFive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 30px;
+      
+}
+
+.OCSP-imgSix {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.OCSP-imgSeven {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.OCSP-imgEight {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.OCSP-imgNine {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.OCSP-imgTen {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+}

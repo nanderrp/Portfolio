@@ -1,0 +1,48 @@
+.Album {
+    text-align: left;
+    align-content: center;
+    background-color: #191919;
+    border: 5px solid #f7f7f7;
+}
+
+.Album-exit {
+    display: inline-block;
+    float: right;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.Album-title { 
+  padding: 20px;
+  font-family: aktiv-grotesk;
+  font-size: 5vw;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Album-blurb {
+    padding: 20px;
+    margin-bottom: 40px;
+    font-family: aktiv-grotesk;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+.Album-imgOne {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+}

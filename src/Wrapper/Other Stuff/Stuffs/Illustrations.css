@@ -1,0 +1,145 @@
+.Illustrations {
+    text-align: left;
+    align-content: center;
+    background-color: #191919;
+    border: 5px solid #f7f7f7;
+}
+
+.Illustrations-exit {
+    display: inline-block;
+    float: right;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.Illustrations-title { 
+  padding: 20px;
+  font-family: aktiv-grotesk;
+  font-size: 5vw;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Illustrations-imgOne {
+    padding: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.Illustrations-imgTwo {
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.Illustrations-imgThree {
+    margin: 10px;
+    max-width: 48%;
+    margin-bottom: 5px;
+        
+}
+
+.Illustrations-imgFour {
+   
+    margin: 10px;
+    max-width: 48%;
+    margin-bottom: 5px;
+      
+}
+
+.Illustrations-imgFive {
+    margin: 10px;
+    max-width: 48%;
+    margin-bottom: 5px;
+      
+}
+
+.Illustrations-imgSix {
+  
+    margin: 10px;
+    max-width: 48%;
+    margin-bottom: 5px;
+      
+}
+
+.Illustrations-imgSeven {
+    margin: 10px;
+    max-width: 48%;
+    margin-bottom: 30px;
+      
+}
+
+.Illustrations-imgEight {
+   
+    margin: 10px;
+    max-width: 48%;
+    margin-bottom: 30px;
+    ;  
+}
+
+@media screen and (max-width: 1010px)
+{
+.Illustrations-imgThree {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 48%;
+    margin-bottom: 5px;
+        
+}
+
+.Illustrations-imgFour {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 48%;
+    margin-bottom: 5px;
+      
+}
+
+.Illustrations-imgFive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 48%;
+    margin-bottom: 5px;
+      
+}
+
+.Illustrations-imgSix {
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 48%;
+    margin-bottom: 5px;
+      
+}
+
+.Illustrations-imgSeven {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 48%;
+    margin-bottom: 30px;
+      
+}
+
+.Illustrations-imgEight {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 48%;
+    margin-bottom: 30px;
+    ;  
+}
+}

@@ -1,0 +1,19 @@
+.Sidebar {
+    transform: rotate(180deg);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal; 
+    letter-spacing: .8px;
+    color: #101010;
+    writing-mode: vertical-lr;
+    width: 35px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    
+}
+
+

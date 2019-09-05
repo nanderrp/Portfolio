@@ -1,0 +1,51 @@
+.Wrapper {
+    background-color: #f6f6f6;
+    height: auto;
+    width: 100%;
+    margin:0;
+    margin-bottom: auto;
+    margin-right: 100%;
+}
+
+.Wrapped {
+    margin: 0;
+    margin-right: 100px;
+    width: 100%;
+    display: grid;
+    background-color: #f6f6f6;
+}
+
+.Wrapped div {
+    padding: 0.5em;
+}
+
+
+
+.Wrapped .Nested {
+   display: grid;
+   padding-left: 15px;
+}
+
+.Wrapped .Nested .BigNames{
+
+}
+
+.Wrapped .Nested .About {
+    float: left;
+    margin-left: 0;
+    padding-right: 20vw;
+    font-size: 18px;
+    line-height: 1.2;
+    width: 425px;
+}
+
+@media screen and (min-width: 701px) {
+    .Wrapped .Nested .About {
+        font-size: 40px;
+        padding-right: 20vw;
+        width: 90%
+    }
+    }
+
+
+
