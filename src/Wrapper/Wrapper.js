@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Sidebar from './Side Bar/Sidebar';
 import About from './About/About';
 import BigNames from './Big Names/BigNames';
 import Otherstuff from './Other Stuff/Otherstuff.js';

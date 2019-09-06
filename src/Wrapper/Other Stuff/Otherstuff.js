@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Otherstuff.css';
 import Logos from './Stuffs/Logos';
 import { Link } from 'react-router-dom';
-import Sidebar from '../Side Bar/Sidebar';
+
 
 
 export default class Otherstuff extends Component {
