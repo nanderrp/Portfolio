@@ -23,7 +23,7 @@ export default class OCSP extends Component {
                 <Link align="right" className="OCSP-exit" to='/' style={{ textDecoration: 'none'}}>&#10005;</Link>
 
                 
-                        <h1 className="OCSP-title">Friends of the Gorge: Rebrand</h1>
+                        <h1 className="OCSP-title">Oregon College Savings Plan</h1>
 
                         <p className="OCSP-blurb">
                         I worked with this brand for over a year at eROI. I took their initial beautiful 

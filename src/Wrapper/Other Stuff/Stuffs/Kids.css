@@ -11,6 +11,10 @@
     color: #ffffff;
     cursor: pointer;
     padding: 20px;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 99;
 }
 
 .Kids-title { 

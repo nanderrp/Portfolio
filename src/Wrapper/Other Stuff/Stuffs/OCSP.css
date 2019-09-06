@@ -11,6 +11,9 @@
     color: #ffffff;
     cursor: pointer;
     padding: 20px;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
 }
 
 .OCSP-title { 
@@ -25,8 +28,15 @@
   color: #ffffff;
 }
 
+@media screen and (max-width: 500px)
+{.OCSP-blurb {
+    font-size: 12pt !important ;
+}
+}
+
 .OCSP-blurb {
-    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 40px;
     font-family: aktiv-grotesk;
     font-size: 22px;

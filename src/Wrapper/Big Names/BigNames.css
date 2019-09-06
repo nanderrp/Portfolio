@@ -31,6 +31,11 @@
     background-color: #f6f6f6;
 }
 
+.Lock {
+    width: 2%;
+    margin-bottom: 5px;
+    margin-left: 3px;
+}
 
 
 .BigNames p {
@@ -45,9 +50,9 @@
       color: #101010;
       writing-mode: vertical-lr;
       width: 15px;
-      height: 70px;
+      height: 80px;
       float: left;
-      margin-top: 35px;
+      margin-top: 25px;
       margin-left: 0;
   }
 
@@ -60,7 +65,7 @@
 }
 
 .BigNames span{
-    text-decoration: underline #101010;
+    text-decoration: underline #101010  !important;
 }
 
 .BigNames .Text {

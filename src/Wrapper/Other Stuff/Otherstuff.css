@@ -1,8 +1,8 @@
 .Item {
   display: grid;
   position: relative;
-  width: 257px;
-  height: 190px;
+  width: 300px;
+  height: 240px;
   background-color: #0072ff;
   margin: 3px;
   margin-left: 5px;
@@ -52,48 +52,48 @@
 
 .logos {
   background-image: url('./Images/logos.png');
-  background-size: 100% auto;
+  background-size: 300px 240px;
 }
 
 .disney {
   background-image: url('./Images/ausad-r-2-2-e.png');
-  background-size: 100% auto;
+  background-size: 300px 240px;
 }
 .illustrations {
   background-image: url('./Images/arthur.png');
-  background-size: 100% auto;
+  background-size: 300px 240px;
 }
 .ocean {
   background-image: url('./Images/cover-oe.png');
-  background-size: 100% auto;
+  background-size: 300px 240px;
 }
 .album {
   background-image: url('./Images/cd.png');
-  background-size: 100% auto;
+  background-size: 300px 240px;
 }
 .stationary {
   background-image: url('./Images/kelseyinvite.png');
-  background-size: 100% auto;
+  background-size: 300px 240px;
 }
 .handlettering {
   background-image: url('./Images/i-3.png');
-  background-size: 100% auto;
+  background-size:300px 240px;
 }
 .alpenrose {
   background-image: url('./Images/final-pierpoint.png');
-  background-size: 100% auto;
+  background-size: 300px 240px;
 }
 .friends {
   background-image: url('./Images/gorge.png');
-  background-size: 100% auto;
+  background-size: 300px 240px;
 }
 .kids {
   background-image: url('./Images/4Kids.png');
-  background-size: 100% auto;
+  background-size: 300px 240px;
 }
 .college {
   background-image: url('./Images/college.png');
-  background-size: 100% auto;
+  background-size: 300px 240px;
 }
 
 .Item h2 {
