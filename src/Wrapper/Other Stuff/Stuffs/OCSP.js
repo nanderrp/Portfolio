@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import OCSP1 from './Img Stuff/OCSP1.png';
-import OCSP2 from './Img Stuff/OCSP2.png';
-import OCSP3 from './Img Stuff/OCSP3.png';
+import OCSP2 from './Img Stuff/OCSPGif.gif';
+import OCSP3 from './Img Stuff/OCSPGif2.gif';
 import OCSP4 from './Img Stuff/OCSP4.png';
-import OCSP5 from './Img Stuff/OCSP5.png';
+import OCSP5 from './Img Stuff/OCSPGif3.gif';
 import OCSP6 from './Img Stuff/OCSP6.png';
 import OCSP7 from './Img Stuff/OCSP7.png';
 import OCSP8 from './Img Stuff/OCSP8.png';

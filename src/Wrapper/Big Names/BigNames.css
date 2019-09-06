@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: repeat(3, 26vw);
     float: none;
-    margin-left: 3vw;
+    margin-left: 2vw;
 }
 
 @media screen and (max-width: 1200px) {
@@ -27,7 +27,7 @@
     padding-top: 10px;
     border: none;
     text-align: left;
-    line-height: 2.5;
+    line-height: 1.5;
     background-color: #f6f6f6;
 }
 
@@ -44,7 +44,7 @@
       letter-spacing: .8px;
       color: #101010;
       writing-mode: vertical-lr;
-      width: 8px;
+      width: 15px;
       height: 70px;
       float: left;
       margin-top: 35px;

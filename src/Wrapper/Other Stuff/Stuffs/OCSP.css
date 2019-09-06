@@ -83,32 +83,52 @@
 }
 
 .OCSP-imgFive {
-   padding-top: 30px;
-   padding-left: 50px;
+   width: 45%;
+   margin-top: 10vw;
+   padding-left: 9vw;
    
 }
 
 .OCSP-imgSix {
-    padding-top: 140px;
-    padding-right: 50px;
+    padding-top: 10vw;
+    padding-right: 7vw;
     float: right;
     width: 50%;
 }
 
 .OCSP-imgSeven {
-  padding-left: 50px;
-  padding-top: 50px;
+  margin-left: 5vw;
+  margin-top: 5vw;
+  width: 40%;
   float: left;
-  
+  margin-bottom: 1vw;
 }
 
 .OCSP-imgEight {
- width: 30%;
- float: right;
-   
+ width: 40%;
+ float: right;  
+ margin-right: 8.5vw;
+ margin-top: 5vw;
+ margin-bottom: 40px;
 }
 
-@media screen and (max-width: 1010px)
+.OCSP-imgNine {
+   width: 30%;
+   margin-top: 5vw;
+   margin-left: 10vw;
+   margin-right: 3vw;
+   float: left;
+    margin-bottom: 30px;
+}
+
+.OCSP-imgTen {
+   width: 40%;
+   margin-left: 5vw;
+   margin-top: 5vw;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 750px)
 {
 .OCSP-imgOne {
     display: block;
@@ -133,7 +153,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
     margin-bottom: 30px;
       
 }
@@ -143,7 +163,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
     margin-bottom: 30px;
 }
 
@@ -152,7 +172,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
     margin-bottom: 30px;
 }
 
@@ -161,7 +181,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
     margin-bottom: 30px;
 }
 
@@ -170,7 +190,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
     margin-bottom: 30px;
 }
 
@@ -179,7 +199,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
     margin-bottom: 30px;
 }
 }
