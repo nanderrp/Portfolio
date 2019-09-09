@@ -44,9 +44,11 @@
 
 .Circle-imgOne {
     padding: 20px;
+    margin-left: 10vw;
+    margin-right: auto;
     margin-bottom: 30px;
     display: inline-block;
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -173,6 +175,43 @@
    width: 32%;
    margin-bottom: 30px;
 }
+
+@media screen and (max-width: 700px){
+.Circle-title { 
+    padding: 20px;
+    font-family: aktiv-grotesk;
+    font-size: 30pt !important;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+    
+    .Circle-imgThirteen {
+        float: none !important;
+        padding: 20px;
+        width: 100%;
+        margin: auto !important;
+    }
+    
+    .Circle-imgFifteen {
+        float: none !important;
+        padding: 20px;
+        width: 100%;
+        margin: auto !important;
+    }
+    
+    .Circle-imgTwelve {
+        float: none !important;
+       padding: 20px;
+       width: 100%;
+       margin: auto !important;
+      
+    }
+  }
+
 
 @media screen and (max-width: 1120px){
     .Circle-imgFive {

@@ -11,9 +11,11 @@
   float: right;
   color: #ffffff;
   cursor: pointer;
-  background: transparent;
-  border: none;
   padding: 20px;
+  top: 0;
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 4;
   }
 
   .Thesis-title {
@@ -36,6 +38,7 @@
       height: 100%;
       justify-content: center;
       align-content: center;
+      z-index: 3;
   }
 
   .Carrousel .Thesis2 {
@@ -61,4 +64,14 @@
   .next {
     position: fixed;
     margin-right: -10vw;
+  }
+
+  @media screen and (max-width: 700px){
+    .Thesis-img {
+      width: 80% !important;
+    }
+
+    .Thesis-title{
+      font-size: 30pt !important;
+    }
   }

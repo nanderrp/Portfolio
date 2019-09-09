@@ -29,6 +29,12 @@
   color: #ffffff;
 }
 
+@media screen and (max-width: 700px){
+    .Alpenrose-title{
+          font-size: 30pt !important;
+        }
+      }
+
 .Alpenrose img {
     padding: 10px 20px 10px 10px;
     width: 100%;

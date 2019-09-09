@@ -23,10 +23,16 @@
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1;
+
   letter-spacing: normal;
   color: #ffffff;
 }
+
+@media screen and (max-width: 700px){
+    .OCSP-title{
+          font-size: 30pt !important;
+        }
+      }
 
 @media screen and (max-width: 500px)
 {.OCSP-blurb {
@@ -72,16 +78,16 @@
 
 .OCSP-imgTwo {
     width: 44vw;
-    padding-left: 50px;
+    margin-left: 30px;
     margin-top: 140px;
     float: left;
 }
 
 .OCSP-imgThree {
-   padding-left: 50px;
-   margin-top: 100px;
+   padding-left: 60px;
+   margin-top: 140px;
    margin-bottom: 30px;
-   width: 44vw;
+   width: 40vw;
 
 }
 
@@ -135,81 +141,108 @@
    width: 40%;
    margin-left: 5vw;
    margin-top: 5vw;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
-@media screen and (max-width: 750px)
+@media screen and (max-width: 700px)
 {
-.OCSP-imgOne {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    margin-bottom: 5px;
+.OCSP-imgOne {padding: none;
+    float: none;
+    display: inline-block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important; 
+    margin-bottom: 5px !important;
         
 }
 
+.OCSP-imgTwo {padding: none;
+    float: none;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+    margin-bottom: 5px !important;
+}
+
+.OCSP-imgThree {padding: none;
+    float: none;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: 85px !important;
+    width: 80% !important;
+    margin-bottom: 5px !important;
+
+}
+
 .OCSP-imgFour {
-  
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    margin-bottom: 5px;
+  padding: none;
+  float: none;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+    margin-bottom: 5px !important;
       
 }
 
-.OCSP-imgFive {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    margin-bottom: 30px;
+.OCSP-imgFive {padding: none;
+    float: none;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: 45px !important;
+    width: 90% !important;
+    margin-bottom: 10px !important;
       
 }
 
 .OCSP-imgSix {
-   
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    margin-bottom: 30px;
+   padding: none;
+   float: none;
+    display: block !important;
+    margin-left: 47px !important;
+    margin-right: auto !important;
+    width: 85% !important;
+    margin-bottom: 10px !important;
 }
 
 .OCSP-imgSeven {
-   
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    margin-bottom: 30px;
+   padding: none;
+   float: none;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 80% !important;
+    margin-bottom: 10px !important;
 }
 
 .OCSP-imgEight {
-   
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    margin-bottom: 30px;
+   padding: none;
+   float: none;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 80% !important;
+    margin-bottom: 10px !important;
 }
 
 .OCSP-imgNine {
-   
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    margin-bottom: 30px;
+   padding: none;
+   float: none;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 80% !important;
+    margin-bottom: 10px !important;
 }
 
 .OCSP-imgTen {
-   
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    margin-bottom: 30px;
+   padding: none;
+   float: none;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 80% !important;
+    margin-bottom: 10px !important;
 }
 }

@@ -14,7 +14,7 @@ export default class Adobe extends Component {
         return (
             <div className="Adobe container-fluid">
                 <Password />
-                <Link align="right" className="Logos-exit" to='/' style={{ textDecoration: 'none'}}>&#10005;</Link>
+                <Link align="right" className="Adobe-exit" to='/' style={{ textDecoration: 'none'}}>&#10005;</Link>
 
                 <h1 className="Adobe-title">
                     Adobe Creative Cloud: App Banner

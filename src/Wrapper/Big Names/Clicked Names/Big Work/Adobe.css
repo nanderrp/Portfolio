@@ -16,7 +16,6 @@
   top: 0;
     position: sticky;
     position: -webkit-sticky;
-    z-index: 99;
   }
 
   .Adobe-title {
@@ -30,6 +29,12 @@
   letter-spacing: normal;
   color: #ffffff;
   }
+
+  @media screen and (max-width: 700px){
+    .Adobe-title{
+          font-size: 30pt !important;
+        }
+      }
 
   .Adobe-blurb {
   padding: 20px;

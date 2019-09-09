@@ -18,7 +18,7 @@ export default class Linkdin extends Component {
                 
                 <img className="Linkdin-img1" src={Linkdin1} alt='Linkdin mockup'></img>
                  
-                <video className="Linkdin-mov" controls="controls" autoplay="true" loop="true" width="738px" src={LinkdinMov} alt='Linkdin mov'></video>
+                <video className="Linkdin-mov" controls="controls" loop="true" width="738px" src={LinkdinMov} alt='Linkdin mov'></video>
                 
             </div>
         )

@@ -36,63 +36,84 @@ export default class Otherstuff extends Component {
             <div className="Otherstuff container-fluid"> 
             <p>Other Stuff</p>
                 <div className="OtherGrid row">
-                  <div className="Item logos" onClick={this.handleClick}>
-                    <Link to='/Logos' style={{ textDecoration: 'none'}}>
-                    <h2>Logos</h2>
-                    </Link>
-                  </div>
                   
-                  <div className="Item disney">
+                    <Link to='/Logos' style={{ textDecoration: 'none'}}>
+                    <div className="Item logos">
+                    <h2>Logos</h2>
+                    </div>
+                    </Link>
+                  
+                  
+                  
                   <Link to='/Circle' style={{ textDecoration: 'none'}}>
+                  <div className="Item disney">
                       <h2 style={{paddingTop: '50px'}}>Circle <br />with <br />Disney</h2>
+                      </div>
                       </Link>
-                  </div> 
+                   
                  
-                  <div className="Item illustrations" >
                   <Link to='/Illustrations' style={{ textDecoration: 'none'}}>
-                      <h2 style= {{textAlign: 'right', paddingTop: '125px'}}>Illustrations</h2>
-                      </Link>
+                  <div className="Item illustrations" >
+                      <h2 style= {{textAlign: 'right', paddingTop: '12vw'}}>Illustrations</h2>
                       </div>
-                  <div className="Item ocean">
+                      </Link>
+                      
+                 
                   <Link to='/OceansEdge' style={{ textDecoration: 'none'}}>
+                    <div className="Item ocean">
                       <h2 style= {{textAlign: 'right', paddingTop: '50px'}}>Ocean's Edge Apparel Design</h2>
-                     </Link>
                       </div>
-                  <div className="Item album" >
+                     </Link>
+                      
+                  
                   <Link to='/Album' style={{ textDecoration: 'none'}}>
-                      <h2 style= {{textAlign: 'Left', paddingTop: '90px', paddingLeft: '30px'}}>Album Cover Design</h2>
+                  <div className="Item album" >
+                      <h2 style= {{textAlign: 'Left', paddingTop: '9vw', paddingLeft: '30px'}}>Album Cover Design</h2>
+                      </div>
                       </Link>
-                  </div>
-                  <div className="Item stationary">
+                  
+                 
                   <Link to='/Stationary' style={{ textDecoration: 'none'}}>
+                  <div className="Item stationary">
                     <h2 style={{textAlign: 'Center'}}>Stationary</h2>
+                    </div>
                     </Link>
-                  </div>
-                  <div className="Item handlettering" >
+                  
+                  
                   <Link to='/Handlettering' style={{ textDecoration: 'none'}}>
-                    <h2 style={{paddingTop: '125px'}}>Handlettering</h2>
+                  <div className="Item handlettering" >
+                    <h2 style={{paddingTop: '12.5vw'}}>Handlettering</h2>
+                    </div>
                     </Link>
-                  </div>
-                  <div className="Item alpenrose" >
+                  
+                  
                   <Link to='/Alpenrose' style={{ textDecoration: 'none'}}>
+                  <div className="Item alpenrose" >
                     <h2 style={{textAlign: 'right'}}>Alpenrose Dairy: Rebrand</h2>
+                    </div>
                     </Link>
-                  </div>
-                  <div className="Item friends" >
+                  
+                  
                   <Link to='/FriendsoftheGorge' style={{ textDecoration: 'none'}}>
+                  <div className="Item friends" >
                     <h2  style={{textAlign: 'right'}}>Friends of<br />the Gorge</h2>
+                    </div>
                     </Link>
-                  </div>
-                  <div className="Item kids" >
+                  
+                  
                   <Link to='/Kids' style={{ textDecoration: 'none'}}>
+                  <div className="Item kids" >
                     <h2 style={{paddingTop: '70px'}}>4Kids South Florida</h2>
+                    </div>
                     </Link>
-                  </div>
-                  <div className="Item college">
+                  
+                  
                   <Link to='/OCSP' style={{ textDecoration: 'none'}}>
+                  <div className="Item college">
                     <h2 style={{textAlign: 'right', paddingTop: '60px'}}>Oregon College Savings Plan</h2>
+                    </div>
                     </Link>
-                  </div>
+                  
                     
                             
                   { this.state.isLogoVisible ? <Logos /> : null }

@@ -32,6 +32,12 @@
   color: #ffffff;
   }
 
+  @media screen and (max-width: 700px){
+    .Capital-title{
+          font-size: 30pt !important;
+        }
+      }
+
   .Carrousel {
       margin-left: 11%;
       margin-right: 10%;

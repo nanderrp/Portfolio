@@ -29,6 +29,12 @@
   color: #ffffff;
 }
 
+@media screen and (max-width: 700px){
+    .Logos-title{
+          font-size: 30pt !important;
+        }
+      }
+
 .Logo-imgOne{
     padding: 20px;
     display: inline-block;

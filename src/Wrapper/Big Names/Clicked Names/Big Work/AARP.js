@@ -23,13 +23,13 @@ export default class AARP extends Component {
              <div id="carouselExampleControls" className="carousel slide" data-interval="4000" data-ride="false">
                 <div className="carousel-inner">
                     <div id="carouselItem"className="carousel-item active">
-                    <img src={AARP1} className="AARP1 d-block w-100 AARP-img" alt="..." />
+                    <img src={AARP1} className="AARP1 d-block w-80 AARP-img" alt="..." />
                     </div>
                     <div id="carouselItem"className="carousel-item">
-                    <img src={AARP2} className="AARP2 d-block w-100 AARP-img" alt="..."/>
+                    <img src={AARP2} className="AARP2 d-block w-80 AARP-img" alt="..."/>
                     </div>
                     <div id="carouselItem"className="carousel-item">
-                    <img src={AARP3} className="AARP2 d-block w-100 AARP-img" alt="..."/>
+                    <img src={AARP3} className="AARP2 d-block w-80 AARP-img" alt="..."/>
                     </div>
                     </div>
                     <a className="carousel-control-prev prev" href="#carouselExampleControls" role="button" data-slide="prev">

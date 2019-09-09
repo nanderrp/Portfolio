@@ -21,10 +21,10 @@ export default class Wacom extends Component {
              <div id="carouselExampleControls" className="carousel slide" data-interval="4000" data-ride="false">
                 <div className="carousel-inner">
                     <div id="carouselItem"className="carousel-item active">
-                    <img src={Wacom1} className="Wacom1 d-block w-100 Wacom-img" alt="..." />
+                    <img src={Wacom1} className="Wacom1 d-block w-80 Wacom-img" alt="..." />
                     </div>
                     <div id="carouselItem"className="carousel-item">
-                    <img src={Wacom2} className="Wacom2 d-block w-100 Wacom-img" alt="..."/>
+                    <img src={Wacom2} className="Wacom2 d-block w-80 Wacom-img" alt="..."/>
                     </div>
                     </div>
                     <a className="carousel-control-prev prev" href="#carouselExampleControls" role="button" data-slide="prev">

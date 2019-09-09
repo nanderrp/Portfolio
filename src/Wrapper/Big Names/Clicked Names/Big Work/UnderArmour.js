@@ -47,7 +47,7 @@ export default class Adobe extends Component {
         return (
             <div className="UnderArmour container-fluid">
                 <Password />
-                <Link align="right" className="Logos-exit" to='/' style={{ textDecoration: 'none'}}>&#10005;</Link>
+                <Link align="right" className="Under-exit" to='/' style={{ textDecoration: 'none'}}>&#10005;</Link>
 
                 <h1 className="Under-title">
                     Under Armour: Campaign and Newsletter Emails

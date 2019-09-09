@@ -21,10 +21,10 @@ export default class Hyatt extends Component {
              <div id="carouselExampleControls" className="carousel slide" data-interval="4000" data-ride="false">
                 <div className="carousel-inner">
                     <div id="carouselItem"className="carousel-item active">
-                    <img src={Hyatt1} className="Hyatt1 d-block w-100 Hyatt-img" alt="..." />
+                    <img src={Hyatt1} className="Hyatt1 d-block w-70 Hyatt-img" alt="..." />
                     </div>
                     <div id="carouselItem"className="carousel-item">
-                    <img src={Hyatt2} className="Hyatt2 d-block w-100 Hyatt-img" alt="..."/>
+                    <img src={Hyatt2} className="Hyatt2 d-block w-40 Hyatt-img" alt="..."/>
                     </div>
                     </div>
                     <a className="carousel-control-prev prev" href="#carouselExampleControls" role="button" data-slide="prev">

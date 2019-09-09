@@ -31,7 +31,7 @@ export default class Thesis extends Component {
                       <img src={Thesis1} className="Thesis1 d-block w-100 Capital-img" alt="..." />
                       </div>
                       <div id="carouselItem"className="carousel-item">
-                      <video src={Thesis2} width="210px" autoplay="true" loop="true" className="Thesis2 d-block w-100 Thesis-img" alt="..."/>
+                      <video src={Thesis2} width="200px" controls="controls" loop="true" className="Thesis2 d-block w-90 Thesis-img" alt="..."/>
                       </div>
                       <div className="carousel-item">
                       <img src={Thesis3} className="Thesis3 d-block w-100 Thesis-img" alt="..."/>

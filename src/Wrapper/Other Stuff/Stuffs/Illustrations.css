@@ -29,6 +29,12 @@
   color: #ffffff;
 }
 
+@media screen and (max-width: 700px){
+    .Illustrations-title{
+          font-size: 30pt !important;
+        }
+      }
+
 .Illustrations-imgOne {
     padding: 20px;
     margin-bottom: 30px;
