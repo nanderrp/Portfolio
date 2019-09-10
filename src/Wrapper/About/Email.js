@@ -31,7 +31,7 @@ export default class Email extends Component {
                 <form className="Email-form" action="https://formspree.io/beccapierpoint@gmail.com" method="POST" onSubmit={this.handleSubmit}>
                 <input className="Email-input"type="name"  placeholder="Who are you?" onChange={this.handleChange}/>
                 <input className="Email-input"type="email" placeHolder="Your Email" onChange={this.handleChange}/>
-                <textarea className="Email-input"type="text"  contentEditable="true" placeholder="Talk to me!" onChange={this.handleChange}/>
+                <textarea className="Email-body" type="text"  contentEditable="true" placeholder="Talk to me!" onChange={this.handleChange}/>
                 <button className="Email-btn" type="submit">Send</button>
                 </form>
             </div>
