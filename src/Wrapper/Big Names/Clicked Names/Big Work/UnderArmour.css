@@ -34,6 +34,10 @@
     .Under-title{
           font-size: 30pt !important;
         }
+
+    .Under1, .Under2, .Under3, .Under4, .Under5{
+        width: 90% !important;
+    }
       }
 
   .UnderArmour-img {
