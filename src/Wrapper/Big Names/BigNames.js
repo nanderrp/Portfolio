@@ -22,8 +22,8 @@ export default class BigNames extends Component {
                     <span className='Name'>Wacom</span>
                     <span className='Text'>: Product Launch Emails</span>  <img src={Lock} alt="..."className="Lock"></img>
                 </Link>
-                <Link className="BigNames-link" to='/Linkdin'>
-                    <span className='Name'>Linkdin</span>
+                <Link className="BigNames-link" to='/Linkedin'>
+                    <span className='Name'>Linkedin</span>
                     <span className='Text'>: Sponsored Inmail Email</span>  <img src={Lock} alt="..."className="Lock"></img>
                 </Link>
              

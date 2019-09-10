@@ -27,10 +27,6 @@
    padding-left: 15px;
 }
 
-.Wrapped .Nested .BigNames{
-
-}
-
 .Wrapped .Nested .About {
     float: left;
     margin-left: 0;
@@ -44,9 +40,6 @@
     .Wrapped .Nested .About {
         font-size: 40px;
         padding-right: 20vw;
-        width: 90%
+        width: 100%
     }
     }
-
-
-

@@ -16,26 +16,12 @@ export default class Wacom extends Component {
                     Wacom: Product Launch Emails
                 </h1>
 
-                <div className="Carrousel">
+                <div className="Wacom-img">
                
-             <div id="carouselExampleControls" className="carousel slide" data-interval="4000" data-ride="false">
-                <div className="carousel-inner">
-                    <div id="carouselItem"className="carousel-item active">
-                    <img src={Wacom1} className="Wacom1 d-block w-80 Wacom-img" alt="..." />
-                    </div>
-                    <div id="carouselItem"className="carousel-item">
-                    <img src={Wacom2} className="Wacom2 d-block w-80 Wacom-img" alt="..."/>
-                    </div>
-                    </div>
-                    <a className="carousel-control-prev prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="false"></span>
-                    <span className="sr-only">Previous</span>
-                </a>
-                <a className="carousel-control-next next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Next</span>
-                </a>
-        </div> 
+                    <img src={Wacom1} className="Wacom1" alt="..." />
+                    
+                    <img src={Wacom2} className="Wacom2" alt="..."/>
+                    
         </div>
                 
             </div>

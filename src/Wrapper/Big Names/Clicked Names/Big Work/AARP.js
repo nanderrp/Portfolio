@@ -18,29 +18,17 @@ export default class AARP extends Component {
                     AARP: Girlfriend IllustrationAARP
                 </h1>
 
-                <div className="Carrousel">
+                <div className="AARP-img">
                
-             <div id="carouselExampleControls" className="carousel slide" data-interval="4000" data-ride="false">
-                <div className="carousel-inner">
-                    <div id="carouselItem"className="carousel-item active">
-                    <img src={AARP1} className="AARP1 d-block w-80 AARP-img" alt="..." />
-                    </div>
-                    <div id="carouselItem"className="carousel-item">
-                    <img src={AARP2} className="AARP2 d-block w-80 AARP-img" alt="..."/>
-                    </div>
-                    <div id="carouselItem"className="carousel-item">
-                    <img src={AARP3} className="AARP2 d-block w-80 AARP-img" alt="..."/>
-                    </div>
-                    </div>
-                    <a className="carousel-control-prev prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="false"></span>
-                    <span className="sr-only">Previous</span>
-                </a>
-                <a className="carousel-control-next next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Next</span>
-                </a>
-        </div> 
+             
+                    <img src={AARP1} className="AARP1"  alt="..." />
+                    
+                    
+                    <img src={AARP2} className="AARP2" alt="..."/>
+              
+                    <img src={AARP3} className="AARP3" alt="..."/>
+                  
+        
         </div>
             </div>
         )

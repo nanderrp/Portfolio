@@ -1,11 +1,11 @@
-.Linkdin {
+.Linkedin {
     text-align: left;
     align-content: center;
     background-color: #191919;
     border: 5px solid #f7f7f7;
 }
 
-.Linkdin-exit {
+.Linkedin-exit {
   display: inline-block;
   float: right;
   color: #ffffff;
@@ -19,7 +19,7 @@
     
   }
 
-  .Linkdin-title {
+  .Linkedin-title {
   padding: 20px;
   font-family: aktiv-grotesk;
   font-size: 5vw;
@@ -32,12 +32,16 @@
   }
 
   @media screen and (max-width: 700px){
-    .Linkdin-title{
+    .Linkedin-title{
           font-size: 30pt !important;
         }
+
+    .Linkedin-mov{
+        width: 60% !important;
+    }
       }
 
-  .Linkdin-blurb {
+  .Linkedin-blurb {
   padding: 20px;
   margin-bottom: 40px;
   font-family: aktiv-grotesk;
@@ -50,18 +54,21 @@
   color: #ffffff;
   }
 
-  .Linkdin-img1 {
-    padding: 20px;
-    display: inline-block;
-    width: 100%;
-    height: auto;
+  .Linkedin-img1 {
+   
+      display: block;
+      margin-top: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+    
   }
 
-  .Linkdin-mov {
-    margin-left: 23%;
-    margin-right: 50%;
-    padding: 20px;
-    display: inline-block;
-    width: 50%;
-    height: auto;
+  .Linkedin-mov {
+      display: block;
+      margin-top: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
   }
+

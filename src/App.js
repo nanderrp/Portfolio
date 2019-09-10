@@ -8,7 +8,7 @@ import UnderArmour from './Wrapper/Big Names/Clicked Names/Big Work/UnderArmour'
 import Wacom from './Wrapper/Big Names/Clicked Names/Big Work/Wacom';
 import Hyatt from './Wrapper/Big Names/Clicked Names/Big Work/Hyatt';
 import Thesis from './Wrapper/Big Names/Clicked Names/Big Work/Thesis';
-import Linkdin from  './Wrapper/Big Names/Clicked Names/Big Work/Linkdin';
+import Linkedin from  './Wrapper/Big Names/Clicked Names/Big Work/Linkedin';
 import CapitalGroup from './Wrapper/Big Names/Clicked Names/Big Work/CapitalGroup';
 import Logos from './Wrapper/Other Stuff/Stuffs/Logos';
 import Circle from './Wrapper/Other Stuff/Stuffs/Circle';
@@ -38,7 +38,7 @@ function App() {
         <Route exact path="/AARP" component={ AARP }/>
         <Route exact path="/Hyatt" component={ Hyatt }/>
         <Route exact path="/Thesis" component={ Thesis }/>
-        <Route exact path="/Linkdin" component={ Linkdin }/>
+        <Route exact path="/Linkedin" component={ Linkedin }/>
         <Route exact path="/CapitalGroup" component={ CapitalGroup }/>
         <Route exact path="/Logos" component={ Logos }/>
         <Route exact path="/Circle" component={ Circle }/>

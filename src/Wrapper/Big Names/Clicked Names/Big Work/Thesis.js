@@ -7,7 +7,7 @@ import Thesis2 from './Big Images/Thesis2.mp4';
 import Thesis3 from './Big Images/Thesis3.png';
 import Thesis4 from './Big Images/Thesis4.png';
 import Thesis5 from './Big Images/Thesis5.png';
-import Thesis6 from './Big Images/Thesis6.png';
+import Thesis6 from './Big Images/Thesis6.gif';
 import Thesis7 from './Big Images/Thesis7.png';
 import Thesis8 from './Big Images/Thesis8.gif';
 import Thesis9 from './Big Images/Thesis9.png';

@@ -37,16 +37,6 @@
           font-size: 30pt !important;
         }
       }
-
-  .Carrousel {
-      margin-left: 11%;
-      margin-right: 10%;
-      width: 80%;
-      height: 100%;
-      justify-content: center;
-      align-content: center;
-      z-index: 3;
-  }
  
 
   .Capital-img {
@@ -57,13 +47,43 @@
     margin-right: auto;
     margin-top: 20px;
   }
-
-  .prev {
-    position: fixed;
-    margin-left: -10vw;
+  
+  .Capital1{
+      display: block;
+      margin-top: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
   }
 
-  .next {
-    position: fixed;
-    margin-right: -10vw;
+  .Capital2{
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .Capital3{
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .Capital4{
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .Capital5{
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
   }

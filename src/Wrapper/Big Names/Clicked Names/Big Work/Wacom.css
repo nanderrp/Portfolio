@@ -35,17 +35,11 @@
     .Wacom-title{
           font-size: 30pt !important;
         }
-      }
 
-  .Carrousel {
-      margin-left: 11%;
-      margin-right: 10%;
-      width: 60%;
-      height: 100%;
-      justify-content: center;
-      align-content: center;
-      z-index: 3;
-  }
+    .Wacom1, .Wacom2 {
+      width: 90% !important;
+    }
+      }
  
 
   .Wacom-img {
@@ -57,12 +51,18 @@
     margin-top: 20px;
   }
 
-  .prev {
-    position: fixed;
-    margin-left: -10vw;
+  .Wacom1 {
+      display: block;
+      margin-top: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
   }
 
-  .next {
-    position: fixed;
-    margin-right: -10vw;
+  .Wacom2 {
+      display: block;
+      margin-top: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
   }

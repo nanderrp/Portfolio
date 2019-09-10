@@ -19,35 +19,19 @@ export default class CapitalGroup extends Component {
                     Capital Group: Email Newsletters
                 </h1>
                 
-                <div className="Carrousel">
-               
-               <div id="carouselExampleControls" className="carousel slide" data-interval="4000" data-ride="false">
-                  <div className="carousel-inner">
-                      <div id="carouselItem"className="carousel-item active">
-                      <img src={Capital1} className="Capital1 d-block w-100 Capital-img" alt="..." />
-                      </div>
-                      <div id="carouselItem"className="carousel-item">
-                      <img src={Capital2} className="Capital2 d-block w-100 Capital-img" alt="..."/>
-                      </div>
-                      <div className="carousel-item">
-                      <img src={Capital3} className="Capital3 d-block w-100 Capital-img" alt="..."/>
-                      </div>
-                      <div id="carouselItem"className="carousel-item">
-                      <img src={Capital4} className="Capital4 d-block w-100 Capital-img" alt="..."/>
-                      </div>
-                      <div id="carouselItem"className="carousel-item">
-                      <img src={Capital5} className="Capital5 d-block w-100 Capital-img" alt="..."/>
-                      </div>
-                  </div>
-                  <a className="carousel-control-prev prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                      <span className="carousel-control-prev-icon" aria-hidden="false"></span>
-                      <span className="sr-only">Previous</span>
-                  </a>
-                  <a className="carousel-control-next next" href="#carouselExampleControls" role="button" data-slide="next">
-                      <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span className="sr-only">Next</span>
-                  </a>
-          </div> 
+                <div className="Capital-img">
+        
+                      <img src={Capital1} className="Capital1" alt="..." />
+                   
+                      <img src={Capital2} className="Capital2" alt="..."/>
+                      
+                      <img src={Capital3} className="Capital3" alt="..."/>
+                      
+                      <img src={Capital4} className="Capital4" alt="..."/>
+                      
+                      <img src={Capital5} className="Capital5" alt="..."/>
+                      
+                  
                 </div>
             </div>
         )

@@ -50,15 +50,21 @@
   }
 
   .Adobe-img1 {
-    padding: 20px;
-    display: inline-block;
-    width: 100%;
-    height: auto;
+    
+      display: block;
+      margin-top: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+  
   }
 
   .Adobe-img2 {
-    padding: 20px;
-    display: inline-block;
-    width: 100%;
-    height: auto;
+    
+      display: block;
+      margin-top: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      margin-bottom: 30px;
   }

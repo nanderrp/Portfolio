@@ -53,35 +53,22 @@ export default class Adobe extends Component {
                     Under Armour: Campaign and Newsletter Emails
                 </h1>
 
-                <div className="Carrousel">
+                <div className="UnderArmour-img">
                
-             <div id="carouselExampleControls" className="carousel slide" data-interval="4000" data-ride="false">
-                <div className="carousel-inner">
-                    <div id="carouselItem"className="carousel-item active">
-                    <img src={Under1} className="Under1 d-block w-100 UnderArmour-img" alt="..." />
-                    </div>
-                    <div id="carouselItem"className="carousel-item">
-                    <img src={Under2} className="Under2 d-block w-100 UnderArmour-img" alt="..."/>
-                    </div>
-                    <div className="carousel-item">
-                    <img src={Under3} className="Under3 d-block w-100 UnderArmour-img" alt="..."/>
-                    </div>
-                    <div id="carouselItem"className="carousel-item">
-                    <img src={Under4} className="Under4 d-block w-100 UnderArmour-img" alt="..."/>
-                    </div>
-                    <div id="carouselItem"className="carousel-item">
-                    <img src={Under5} className="Under5 d-block w-100 UnderArmour-img" alt="..."/>
-                    </div>
-                </div>
-                <a className="carousel-control-prev prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="false"></span>
-                    <span className="sr-only">Previous</span>
-                </a>
-                <a className="carousel-control-next next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Next</span>
-                </a>
-        </div> 
+             
+                    
+                    <img src={Under1} className="Under1" alt="..." />
+                    
+                    
+                    <img src={Under2} className="Under2" alt="..."/>
+                    
+                    <img src={Under3} className="Under3" alt="..."/>
+                    
+                    <img src={Under4} className="Under4" alt="..."/>
+                    
+                    <img src={Under5} className="Under5" alt="..."/>
+                    
+                
                 </div> 
                 </div>
         )

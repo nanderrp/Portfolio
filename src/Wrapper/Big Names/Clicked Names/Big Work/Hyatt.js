@@ -16,26 +16,13 @@ export default class Hyatt extends Component {
                     Hyatt: Mobile Check-in
                 </h1>
 
-                <div className="Carrousel">
+                <div className="Hyatt-img">
                
-             <div id="carouselExampleControls" className="carousel slide" data-interval="4000" data-ride="false">
-                <div className="carousel-inner">
-                    <div id="carouselItem"className="carousel-item active">
-                    <img src={Hyatt1} className="Hyatt1 d-block w-70 Hyatt-img" alt="..." />
-                    </div>
-                    <div id="carouselItem"className="carousel-item">
-                    <img src={Hyatt2} className="Hyatt2 d-block w-40 Hyatt-img" alt="..."/>
-                    </div>
-                    </div>
-                    <a className="carousel-control-prev prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="false"></span>
-                    <span className="sr-only">Previous</span>
-                </a>
-                <a className="carousel-control-next next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Next</span>
-                </a>
-        </div> 
+             
+                    <img src={Hyatt1} className="Hyatt1" alt="..." />
+                    
+                    <img src={Hyatt2} className="Hyatt2" alt="..."/>
+                   
         </div>
                 
             </div>
