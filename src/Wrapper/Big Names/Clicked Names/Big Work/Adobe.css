@@ -33,7 +33,12 @@
   @media screen and (max-width: 700px){
     .Adobe-title{
           font-size: 25pt !important;
+          margin-bottom: 0;
         }
+
+    .Adobe-blurb{
+      font-size: 18px !important;
+    }
       }
 
   .Adobe-blurb {
@@ -52,7 +57,7 @@
   .Adobe-img1 {
     
       display: block;
-      margin-top: 60px;
+      margin-top: 40px;
       margin-left: auto;
       margin-right: auto;
       width: 80%;
@@ -62,7 +67,7 @@
   .Adobe-img2 {
     
       display: block;
-      margin-top: 60px;
+      margin-top: 30px;
       margin-left: auto;
       margin-right: auto;
       width: 80%;

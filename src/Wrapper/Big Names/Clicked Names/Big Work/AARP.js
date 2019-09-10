@@ -15,7 +15,7 @@ export default class AARP extends Component {
                 <Link align="right" className="AARP-exit" to='/' style={{ textDecoration: 'none'}}>&#10005;</Link>
 
                 <h1 className="AARP-title">
-                    AARP: Girlfriend IllustrationAARP
+                    AARP: Girlfriend Illustration
                 </h1>
 
                 <div className="AARP-img">
