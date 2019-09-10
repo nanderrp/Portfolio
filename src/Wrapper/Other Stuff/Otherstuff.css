@@ -77,10 +77,6 @@
   background-image: url('./Images/college.png');
   background-size:300px 220px !important;
 }
-.Item:hover {
-  
- 
-}
 }
 
 .Otherstuff {
@@ -105,11 +101,15 @@
     float: left;
 }
 
-
-.Item:hover {
-  background-image: none;
-  background-color: #0072ff;
-  cursor: pointer;
+@media screen and (min-width: 500px ){
+  .Item:hover {
+    background-image: none;
+    background-color: #0072ff;
+    cursor: pointer;
+  }
+  .Item:hover h2 {
+    opacity: 1;
+  }
 }
 
 .logos {
@@ -170,9 +170,6 @@
   color: #ffffff;
 }
 
-.Item:hover h2 {
-  opacity: 1;
-}
 
 .Otherstuff Link {
   text-decoration: none;

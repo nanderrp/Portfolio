@@ -21,4 +21,5 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
     border: 1px solid transparent;
+    -webkit-overflow-scrolling: touch;
 }
