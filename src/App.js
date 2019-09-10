@@ -22,6 +22,7 @@ import FriendsoftheGorge from './Wrapper/Other Stuff/Stuffs/FriendsoftheGorge';
 import Kids from './Wrapper/Other Stuff/Stuffs/Kids';
 import OCSP from './Wrapper/Other Stuff/Stuffs/OCSP';
 import Password from './Wrapper/Big Names/Clicked Names/Password';
+import Email from './Wrapper/About/Email';
 
 
 
@@ -50,7 +51,8 @@ function App() {
         <Route exact path="/FriendsoftheGorge" component={ FriendsoftheGorge }/>
         <Route exact path="/Kids" component={ Kids }/>
         <Route exact path="/OCSP" component={ OCSP }/>
-        <Route exact path="/enterpassword" component={ Password }/>      
+        <Route exact path="/enterpassword" component={ Password }/>  
+        <Route exact path="/contact" component={ Email }/>    
        
       </Switch>
     
