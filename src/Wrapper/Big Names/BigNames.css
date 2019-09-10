@@ -14,11 +14,17 @@
     .BigNames-list {
        grid-template-columns: repeat(2, 40vw);
     }
+    .BigNames span{
+        text-decoration: underline #101010  !important;
+    }
     }
 
     @media screen and (max-width: 775px) {
         .BigNames-list {
            grid-template-columns: repeat(1, 500px);
+        }
+        .BigNames span{
+            text-decoration: underline #101010  !important;
         }
         }
 
