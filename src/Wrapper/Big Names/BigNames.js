@@ -34,7 +34,7 @@ export default class BigNames extends Component {
                 </Link>
                 <Link className="BigNames-link"  to='/Hyatt'>
                     <span style={{textDecoration: 'underline  !important'}} className='Name'>Hyatt</span>
-                    <span style={{textDecoration: 'underline  !important'}} lassName='Text'>: Mobile Check-in</span>  <img src={Lock} alt="..."className="Lock"></img>
+                    <span style={{textDecoration: 'underline  !important'}} className='Text'>: Mobile Check-in</span>  <img src={Lock} alt="..."className="Lock"></img>
                 </Link>
                 <Link className="BigNames-link"  to='/CapitalGroup'>
                     <span style={{textDecoration: 'underline  !important'}} className='Name'>Capital Group</span>

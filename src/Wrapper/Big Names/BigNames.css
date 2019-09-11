@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: repeat(3, 26vw);
     float: none;
-    margin-left: 2vw;
+    margin-left: 1vw;
 }
 
 @media screen and (max-width: 1200px) {
@@ -22,9 +22,15 @@
     @media screen and (max-width: 775px) {
         .BigNames-list {
            grid-template-columns: repeat(1, 500px);
+            margin-top: 0;
+            margin-left: 1vw !important;
+            margin-bottom: 10px;
         }
-        .BigNames span{
-            text-decoration: underline   !important;
+        .BigNames-link span{
+            text-decoration: underline  #101010 !important;
+        }
+        .BigNames p {
+            width: 6px !important;
         }
         }
 
@@ -55,7 +61,7 @@
       letter-spacing: .8px;
       color: #101010;
       writing-mode: vertical-lr;
-      width: 15px;
+      width: 8px;
       height: 80px;
       float: left;
       margin-top: 25px;
@@ -70,8 +76,8 @@
     background-color: #f6f6f6;
 }
 
-.BigNames span{
-    text-decoration: underline   !important;
+.BigNames-link span{
+    text-decoration: underline #101010 !important;
 }
 
 .BigNames .Text {

@@ -1,3 +1,7 @@
+.OtherGrid {
+  margin-left: -27px !important;
+}
+
 .Item {
   display: grid;
   position: relative;
@@ -5,7 +9,7 @@
   height: 16.7vw;
   background-color: #0072ff;
   margin: 3px;
-  margin-left: 5px;
+  margin-left: px;
 }
 
 @media screen and (max-width:550px) {
@@ -80,6 +84,9 @@
 }
 
 @media screen and (max-width:768px) {
+  .OtherGrid {
+    
+  }
   .Item {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -87,8 +94,8 @@
     width: 300px;
     height: 220px;
     margin: 3px;
-    padding-right: 15px;
-    margin-left: 20px
+    padding-right: 20px;
+    margin-left: 12px
   }
   
   .Item h2 {
@@ -101,6 +108,11 @@
     line-height: 1.11;
     letter-spacing: normal;
     color: #ffffff;
+  }
+
+  .Otherstuff p {
+    width: 5px !important;
+    margin-left: 3px !important;
   }
   
   .logos {
@@ -166,10 +178,9 @@
     letter-spacing: .8px;
     color: #101010;
     writing-mode: vertical-lr;
-    width: 15px;
+    width: 8px;
     margin-top: 20px;
     margin-left: 0;
-    float: left;
 }
 
 @media screen and (min-width: 500px){
