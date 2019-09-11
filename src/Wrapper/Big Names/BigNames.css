@@ -37,7 +37,8 @@
     text-align: left;
     line-height: 1.5;
     background-color: #f6f6f6;
-    text-decoration: underline #101010 !important;
+    text-decoration: underline !important;
+    text-decoration-color: #101010 !important;
 }
 
 .Lock {
@@ -74,7 +75,8 @@
 }
 
 .BigNames-link span{
-    text-decoration: underline #101010 !important;
+    text-decoration: underline !important;
+    text-decoration-color: #101010 !important;
 }
 
 .BigNames .Text {
