@@ -41,6 +41,7 @@
     text-align: left;
     line-height: 1.5;
     background-color: #f6f6f6;
+    text-decoration: underline #101010 !important;
 }
 
 .Lock {

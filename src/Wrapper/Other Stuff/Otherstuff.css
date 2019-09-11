@@ -1,5 +1,7 @@
+@media screen and (min-width: 800px) {
 .OtherGrid {
-  margin-left: -27px !important;
+  margin-left: -2vw !important;
+}
 }
 
 .Item {
