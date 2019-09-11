@@ -86,9 +86,7 @@
 }
 
 @media screen and (max-width:768px) {
-  .OtherGrid {
-    
-  }
+  
   .Item {
     display: grid;
     grid-template-columns: 50% 50%;

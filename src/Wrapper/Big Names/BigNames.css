@@ -15,7 +15,7 @@
        grid-template-columns: repeat(2, 40vw);
     }
     .BigNames span{
-        text-decoration: underline  !important;
+        text-decoration: underline #101010 !important;
     }
     }
 
