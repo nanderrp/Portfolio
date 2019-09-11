@@ -14,9 +14,7 @@
     .BigNames-list {
        grid-template-columns: repeat(2, 40vw);
     }
-    .BigNames span{
-        text-decoration: underline #101010 !important;
-    }
+    
     }
 
     @media screen and (max-width: 775px) {
@@ -26,9 +24,7 @@
             margin-left: 1vw !important;
             margin-bottom: 10px;
         }
-        .BigNames-link span{
-            text-decoration: underline  #101010 !important;
-        }
+    
         .BigNames p {
             width: 6px !important;
         }
