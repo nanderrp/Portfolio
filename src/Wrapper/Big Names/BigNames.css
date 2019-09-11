@@ -15,7 +15,7 @@
        grid-template-columns: repeat(2, 40vw);
     }
     .BigNames span{
-        text-decoration: underline #101010  !important;
+        text-decoration: underline  !important;
     }
     }
 
@@ -24,7 +24,7 @@
            grid-template-columns: repeat(1, 500px);
         }
         .BigNames span{
-            text-decoration: underline #101010  !important;
+            text-decoration: underline   !important;
         }
         }
 
@@ -71,7 +71,7 @@
 }
 
 .BigNames span{
-    text-decoration: underline #101010  !important;
+    text-decoration: underline   !important;
 }
 
 .BigNames .Text {
