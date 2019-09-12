@@ -19,9 +19,6 @@ export default class Adobe extends Component {
                 <h1 className="Adobe-title">
                     Adobe Creative Cloud: App Banner
                 </h1>
-                <p className="Adobe-blurb">
-                Image curation for an app banner. Done with lots of hard work skill and talent. Here below are the images that prove I did the work.
-                </p>
                 
                 
                 <img className="Adobe-img1" src={Adobe1} alt='Adobe Mock up'></img>

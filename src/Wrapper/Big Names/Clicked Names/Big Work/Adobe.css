@@ -33,26 +33,13 @@
   @media screen and (max-width: 700px){
     .Adobe-title{
           font-size: 25pt !important;
-          margin-bottom: 0;
+          margin-bottom: -20px !important;
         }
 
-    .Adobe-blurb{
-      font-size: 18px !important;
+    .Adobe-img1, .Adobe-img2{
+      width: 90% !important;
     }
       }
-
-  .Adobe-blurb {
-  padding: 20px;
-  margin-bottom: 40px;
-  font-family: aktiv-grotesk;
-  font-size: 22px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.21;
-  letter-spacing: normal;
-  color: #ffffff;
-  }
 
   .Adobe-img1 {
     
@@ -67,7 +54,7 @@
   .Adobe-img2 {
     
       display: block;
-      margin-top: 30px;
+      margin-top: 20px;
       margin-left: auto;
       margin-right: auto;
       width: 80%;
