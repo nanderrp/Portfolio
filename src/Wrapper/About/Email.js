@@ -29,9 +29,9 @@ export default class Email extends Component {
             <div className="Email">
                 <Link className='Email-exit' to='/'> &#10005; </Link>
                 <form className="Email-form" action="https://formspree.io/beccapierpoint@gmail.com" method="POST" onSubmit={this.handleSubmit}>
-                <input className="Email-input"type="name"  placeholder="Who are you?" onChange={this.handleChange}/>
-                <input className="Email-input"type="email" placeHolder="Your Email" onChange={this.handleChange}/>
-                <textarea className="Email-body" type="text"  contentEditable="true" placeholder="Talk to me!" onChange={this.handleChange}/>
+                <input className="Email-input" name="name" type="name"  placeholder="Who are you?" onChange={this.handleChange}/>
+                <input className="Email-input" name="email" type="email" placeHolder="Your Email" onChange={this.handleChange}/>
+                <textarea className="Email-body" name="massage" type="text"  contentEditable="true" placeholder="Talk to me!" onChange={this.handleChange}/>
                 <button className="Email-btn" type="submit">Send</button>
                 </form>
             </div>
