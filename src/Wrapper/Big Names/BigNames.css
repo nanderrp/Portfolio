@@ -8,10 +8,12 @@
     grid-template-columns: repeat(3, 26vw);
     float: none;
     margin-left: 1vw;
+    margin-top: -20px;
 }
 
 @media screen and (max-width: 1200px) {
     .BigNames-list {
+       margin-top: -20px;
        grid-template-columns: repeat(2, 40vw);
     }
     
