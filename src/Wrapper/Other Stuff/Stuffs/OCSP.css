@@ -71,14 +71,15 @@
 
 .OCSP-imgOne {
     padding: 20px;
-    width: 100%;
+    width: 80%;
     height: auto;
-    margin: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .OCSP-imgTwo {
-    width: 44vw;
-    margin-left: 30px;
+    width: 34vw;
+    margin-left: 15vw;
     margin-top: 140px;
     float: left;
 }
@@ -87,7 +88,7 @@
    padding-left: 60px;
    margin-top: 140px;
    margin-bottom: 30px;
-   width: 40vw;
+   width: 30vw;
 
 }
 

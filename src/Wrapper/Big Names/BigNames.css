@@ -29,6 +29,7 @@
     
         .BigNames p {
             width: 6px !important;
+            margin-top: 25px !important;
         }
         }
 
@@ -64,7 +65,7 @@
       width: 8px;
       height: 80px;
       float: left;
-      margin-top: 25px;
+      margin-top: 5px;
       margin-left: 0;
   }
 
