@@ -30,8 +30,8 @@ export default class Circle extends Component {
                     <h1 className="Circle-title">Circle Media with Disney</h1>
 
                         <p className="Circle-blurb">Circle is a device which connects to a router to help parents manage the access 
-                         their children have to the wifi. I created several social media campaigns, print pieces to hand to clients,
-                          and other branded collateral. All artwork and art direction is done by me, the copy was provided!</p>
+                         their children have to the wifi.<br/> I created several social media campaigns, print pieces to hand to clients,
+                          and other branded collateral.<br/> All artwork and art direction is done by me, the copy was provided!</p>
 
                 
                     

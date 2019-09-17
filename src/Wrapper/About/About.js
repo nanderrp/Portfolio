@@ -10,8 +10,8 @@ export default class About extends Component {
             <div className="About container-fluid">
                 <p>Aboout</p>
                 <div className="About-text">
-                Becca Pierpoint is a graphic designer in 
-                Portland, Oregon, usually found hiking or trying 
+                Becca Pierpoint is a graphic designer in<br/>
+                Portland, Oregon, usually found hiking or trying<br/>
                 new restaurants. Find her on <a href="https://www.instagram.com/beccapierpoint/"><img className="About-img" src={gram} alt="instagram icon"/></a> or 
                 send an <Link to="/contact"><img className="About-img" src={email} alt="email icon"/></Link>.
                 </div>
