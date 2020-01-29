@@ -14,6 +14,10 @@ import './OCSP.css';
 
 export default class OCSP extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     render() {
 
         return (

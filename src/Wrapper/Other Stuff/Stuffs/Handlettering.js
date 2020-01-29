@@ -14,6 +14,10 @@ import './Handlettering.css';
 
 export default class Handlettering extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     render() {
 
         return (

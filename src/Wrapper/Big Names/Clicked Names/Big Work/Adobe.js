@@ -6,10 +6,12 @@ import Adobe1 from './Big Images/mockup-1.png';
 import Adobe2 from './Big Images/mockup-2.png';
 
 export default class Adobe extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
     
     render() {
-
-    
     
         return (
             <div className="Adobe container-fluid">

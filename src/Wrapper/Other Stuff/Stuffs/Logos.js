@@ -7,6 +7,10 @@ import './Logos.css';
 
 export default class Logos extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     render() {
 
         return (

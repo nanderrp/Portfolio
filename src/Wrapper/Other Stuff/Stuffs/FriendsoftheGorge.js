@@ -15,6 +15,10 @@ import './FriendsoftheGorge.css';
 
 export default class FriendsoftheGorge extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     render() {
 
         return (

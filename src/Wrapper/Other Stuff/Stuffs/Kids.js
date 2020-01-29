@@ -9,6 +9,10 @@ import './Kids.css';
 
 export default class Kids extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     render() {
 
         return (

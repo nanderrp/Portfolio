@@ -13,6 +13,10 @@ import Illustration8 from './Img Stuff/Illustration8.png';
 
 export default class Illustrations extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     render() {
         return (
             <div>

@@ -9,6 +9,10 @@ import './Stationary.css';
 
 export default class Stationary extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     render() {
 
         return (

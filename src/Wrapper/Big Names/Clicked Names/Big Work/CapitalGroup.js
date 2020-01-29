@@ -9,6 +9,11 @@ import Capital4 from "./Big Images/Capital4.png";
 import Capital5 from "./Big Images/Capital5.png";
 
 export default class CapitalGroup extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     render() {
         return (
             <div className="Capital container-fluid">

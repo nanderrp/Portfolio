@@ -83,6 +83,10 @@
   background-image: url('./Images/college.png');
   background-size:300px 220px !important;
 }
+.columbia {
+  background-image: url('./Images/Columbia.png');
+  background-size:300px 220px !important;
+}
 }
 
 @media screen and (max-width:768px) {
@@ -158,6 +162,11 @@
   }
   .college {
     background-image: url('./Images/college.png');
+    background-size:300px 220px !important;
+  }
+
+  .columbia {
+    background-image: url('./Images/Columbia.png');
     background-size:300px 220px !important;
   }
   }
@@ -237,6 +246,10 @@
 }
 .college {
   background-image: url('./Images/college.png');
+  background-size:24vw 16.7vw;
+}
+.columbia {
+  background-image: url('./Images/Columbia.png');
   background-size:24vw 16.7vw;
 }
 

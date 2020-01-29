@@ -6,6 +6,11 @@ import LinkdinMov from './Big Images/Linkdin.mov';
 import Linkdin1 from './Big Images/Linkdin1.jpg';
 
 export default class Linkedin extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     render() {
         return (
             <div className="Linkedin container-fluid">

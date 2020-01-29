@@ -19,6 +19,10 @@ import Circle16 from './Img Stuff/Circle16.png';
 
 export default class Circle extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     render() {
         return (
             <div>

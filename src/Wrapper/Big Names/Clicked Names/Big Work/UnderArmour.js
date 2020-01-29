@@ -35,9 +35,9 @@ export default class Adobe extends Component {
 
     src = this.props.photos
 
-    toggleNext() {
-        
-    }
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
 
 
     render() {

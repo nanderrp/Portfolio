@@ -6,6 +6,11 @@ import Wacom1 from './Big Images/Wacom1.png';
 import Wacom2 from './Big Images/Wacom2.png';
 
 export default class Wacom extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     render() {
         return (
             <div className="Wacom Container-fluid">

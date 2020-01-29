@@ -1,0 +1,94 @@
+.Columbia {
+    text-align: left;
+    align-content: center;
+    background-color: #191919;
+    border: 5px solid #f7f7f7;
+}
+
+.Columbia-exit {
+    display: inline-block;
+    float: right;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 20px;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 99;
+}
+
+.Columbia-title { 
+  padding: 20px;
+  font-family: aktiv-grotesk;
+  font-size: 4vw;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Columbia-blurb {
+  padding: 20px;
+  margin-bottom: 40px;
+  font-family: aktiv-grotesk;
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Columbia-imgOne {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.Columbia-imgTwo {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+.Columbia-imgThree {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.Columbia-imgFour {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.Columbia-imgFive{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.Columbia-imgSix {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+@media screen and (max-width: 700px){
+.Columbia-title { 
+    padding: 20px;
+    font-family: aktiv-grotesk;
+    font-size: 25pt !important;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+}

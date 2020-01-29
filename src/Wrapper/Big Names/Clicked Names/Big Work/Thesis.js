@@ -14,6 +14,11 @@ import Thesis9 from './Big Images/Thesis9.png';
 
 
 export default class Thesis extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     render() {
         return (
             <div className="Thesis container-fluid">

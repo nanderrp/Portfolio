@@ -20,6 +20,10 @@ import './Alpenrose.css';
 
 export default class Alpenrose extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     render() {
 
         return (

@@ -6,6 +6,11 @@ import Hyatt1 from './Big Images/Hyatt1.png';
 import Hyatt2 from './Big Images/Hyatt2.png';
 
 export default class Hyatt extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     render() {
         return (
             <div className="Hyatt container-fluid">

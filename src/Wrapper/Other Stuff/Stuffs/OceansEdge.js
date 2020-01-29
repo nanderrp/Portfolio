@@ -7,6 +7,10 @@ import './OceansEdge.css';
 
 export default class OceansEdge extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     render() {
 
         return (

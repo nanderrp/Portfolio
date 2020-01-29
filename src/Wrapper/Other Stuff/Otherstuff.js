@@ -36,13 +36,18 @@ export default class Otherstuff extends Component {
             <div className="Otherstuff container-fluid"> 
             <p>Other Stuff</p>
                 <div className="OtherGrid row">
+
+                <Link to='/Columbia' style={{ textDecoration: 'none'}}>
+                  <div className="Item columbia">
+                    <h2 style={{textAlign: 'right', paddingTop: '90px'}}>Columbia</h2>
+                    </div>
+                    </Link>
                   
                     <Link to='/Logos' style={{ textDecoration: 'none'}}>
                     <div className="Item logos">
                     <h2>Logos</h2>
                     </div>
                     </Link>
-                  
                   
                   
                   <Link to='/Circle' style={{ textDecoration: 'none'}}>

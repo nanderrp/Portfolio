@@ -8,6 +8,11 @@ import AARP3 from './Big Images/AARP3.jpg';
 
 
 export default class AARP extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     render() {
         return (
             <div className="AARP container-fluid">
