@@ -39,7 +39,7 @@ export default class Otherstuff extends Component {
 
                 <Link to='/Columbia' style={{ textDecoration: 'none'}}>
                   <div className="Item columbia">
-                    <h2 style={{textAlign: 'right', paddingTop: '90px'}}>Columbia</h2>
+                    <h2 style={{textAlign: 'right', paddingTop: '90px'}}>Columbia Sportswear: Art Direction</h2>
                     </div>
                     </Link>
                   
